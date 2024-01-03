@@ -1,0 +1,21 @@
+.home-background {
+    background-image: url('../img/home2.jpg');
+}
+.about {
+    margin: 52px;
+    font-size: 20px;
+}
+.card-body {
+    
+    margin: 80px auto;
+    background-color: rgb(124, 165, 124);
+    
+    width: 40%;
+}
+
+.login-background {
+    background-image: url('../img/home1.jpg');
+}
+.register-background {
+    background-image: url('../img/hom3.jpg');
+}

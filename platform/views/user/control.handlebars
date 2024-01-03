@@ -1,0 +1,68 @@
+<div class="container1">
+  <div class="data">
+    <h4>Bảng thống kê số liệu</h4>
+    <table id="table1">
+      <tr>
+        <th></th>
+        <th>Nhiệt độ (°C)</th>
+        <th>Độ ẩm (%)</th>
+        <th>Độ ẩm đất (%)</th>
+
+      </tr>
+      <tr>
+        <td>Hiện tại</td>
+        <td id="temp"></td>
+        <td id="hum"></td>
+        <td id="soil"></td>
+
+      </tr>
+      <tr>
+        <td>Cao nhất</td>
+        <td id="max_temp"></td>
+        <td id="max_hum"></td>
+        <td id="max_soil"></td>
+      </tr>
+      <tr>
+        <td>Thấp nhất</td>
+        <td id="min_temp"></td>
+        <td id="min_hum"></td>
+        <td id="min_soil"></td>
+      </tr>
+    </table>
+    <div id="chart">
+      <canvas id="myChart" style="width:100%;max-width:500px"></canvas>
+    </div>
+    <div id="chart1">
+      <canvas id="myCh" style="width:100%;max-width:500px"></canvas>
+    </div>
+  </div>
+  <div class="control">
+    <h3>Điều khiển thiết bị</h3>
+    <h4 id="predict"></h4>
+    <h4 id="auto"></h4>
+    <div class="machines">
+      <div class="light">
+        <p id="light1" class="device"><img id="light1img" src="/img/lightOff.png" alt="" class="machine" />
+          Đèn 1</p>
+        <p id="light2" class="device"><img id="light2img" src="/img/lightOff.png" alt="" class="machine" />Đèn 2 </p>
+      </div>
+      <div class="pumps">
+        <p id="pump1" class="device"><img src="/img/pumps.png" alt="" class="machine" />Máy bơm</p>
+        <p id="air" class="device"><img src="/img/fan1.png" alt="" class="machine" />Điều hòa</p>
+      </div>
+    </div>
+  </div>
+  <div class="date">
+    <div class="infor-user">
+      <p>Nhóm 5</p>
+    </div>
+    <div class="show-time">
+      <p id="year"></p>
+      <span>Thời gian : </span>
+      <span id="thoigian"></span>
+    </div>
+    <div class="export">
+      <button id="export-data" >Export data</button>
+    </div>
+  </div>
+</div>

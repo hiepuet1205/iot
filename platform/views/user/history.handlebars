@@ -1,0 +1,28 @@
+<h2 id="header-table">Lịch sử đo trong 30 phút gần nhất</h2>
+<div id="history-table">
+  <div class="stt history-header">Stt
+    {{#each dataArray}}
+    <div class="h-para">{{this.id}}</div>
+    {{/each}}
+  </div>
+  <div class="history-time history-header">Thời gian
+    {{#each dataArray}}
+    <div class="h-para">{{this.time}}</div>
+    {{/each}}
+  </div>
+  <div class="history-temp history-header">Nhiệt độ
+    {{#each dataArray}}
+    <div class="h-para">{{this.temp}}</div>
+    {{/each}}
+  </div>
+  <div class="history-hum history-header">Độ ẩm
+    {{#each dataArray}}
+    <div class="h-para">{{this.hum}}</div>
+    {{/each}}
+  </div>
+  <div class="history-lux history-header">Độ ẩm đất
+    {{#each dataArray}}
+    <div class="h-para">{{this.soil}}</div>
+    {{/each}}
+  </div>
+</div>
