@@ -24,6 +24,7 @@
     "module": "^1.2.5",
     "mqtt": "^5.3.0",
     "mysql2": "^2.3.3",
+    "node-cron": "^3.0.3",
     "node-input-validator": "^4.5.0",
     "node-pickle": "^0.0.2",
     "path": "^0.12.7",
