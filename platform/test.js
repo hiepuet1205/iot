@@ -1,7 +1,7 @@
 var mqtt = require('mqtt');
 const clientId = "client" + Math.random().toString(36).substring(7);
 
-const host = "ws://localhost:9001/mqtt";
+const host = "ws://13.231.154.153:9001/mqtt";
 
 const options = {
     keepalive: 60,

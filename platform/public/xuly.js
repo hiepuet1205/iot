@@ -187,9 +187,11 @@ function handlePumpStatus(data) {
   if (data.toString() == '0') {
     isPumpOpen = false;
     document.getElementById('pump1').innerHTML = '<img src="/img/pumps.png" alt="" class="machine" />Máy bơm (OFF)';
+    document.getElementById('auto_pump').innerHTML = "";
   } else if (data.toString() == '1') {
     isPumpOpen = true;
     document.getElementById('pump1').innerHTML = '<img src="/img/pumps.png" alt="" class="machine" />Máy bơm (ON)';
+    document.getElementById('auto_pump').innerHTML = "<p>Đất khô. Máy Bơm đang được bật</p>";
   }
 }
 
